@@ -216,6 +216,17 @@ footer a {
     }
   }
 
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+  }
+
+  .margintop { margin-top: 50px;}
+
+  .separacion-mapa {
+    margin-bottom: 100px; 
+}
+  
 
 /* 
 - variables
