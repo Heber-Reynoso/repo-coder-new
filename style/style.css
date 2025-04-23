@@ -1,0 +1,209 @@
+/*variables css*/
+
+:root {
+    --main-color: #dda15e;
+    --main-color-secundary: #9e5b21;
+    --main-tex-color: #606c38;
+    --main-text-light: #fefae0;
+    --border: 2px solid black;
+}
+
+
+
+h1 {
+    color: var(--main-color)
+}
+
+/**** ESTILOS GLOBALES ****/
+
+/*reset con selector universal*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+
+
+
+
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+/**** LAYOUT ****/
+
+/* HEADER */
+header {
+    background-color: var(--main-tex-color) !important;
+    color: var(--main-text-light);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    grid-area: header;
+
+}
+
+header a {
+    text-decoration: none;
+    color: var(--main-text-light);
+    font-weight: 600;
+}
+
+/*nav*/
+
+.bg-success {
+    background-color: var(--main-tex-color) !important;
+  }
+
+
+  .navbar-collapse {
+    padding-top: px; /* Ajustá este valor hasta que se vea bien */
+  }
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    display: flex;
+    justify-content: center margin: 0 15px;
+    padding: 15px;
+}
+
+
+/*main*/
+
+main {
+    margin-top: 60px;
+    grid-area: main;
+}
+
+.titulos {
+    color: var(--main-color-secundary);
+}
+
+.subrrayado {
+    text-decoration: underline;
+}
+
+section p {
+    color: var(--main-color-secundary);
+    font-style: italic;
+}
+
+
+.main {
+    min-height: 90vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.main p {
+    margin: 20px 0;
+}
+
+.main h3 {
+    margin: 20px 0;
+}
+
+.main h2 {
+    margin: 20px 0;
+    text-decoration: underline;
+}
+
+
+
+/*footer*/
+footer {
+    background-color: var(--main-tex-color);
+    color: var(--main-text-light);
+    grid-area: footer;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--main-text-light);
+    font-weight: 600;
+}
+
+
+
+/***** COMPONENTS *****/
+
+/*boton*/
+.boton {
+    background-color: var(--main-color-secundary);
+    color: var(--main-text-light);
+
+    /*box model ignorar*/
+    border-radius: 8px;
+    padding: 0% 10px;
+}
+
+.boton-registrate {
+    background-color: var(--main-color-secundary);
+    color: var(--main-text-light);
+    border-radius: 8px;
+    padding: 5px 10px
+}
+
+
+
+
+/******* PAGES *******/
+/* Home */
+#banner {
+    background-color: var(--main-text-light);
+    background-image: url(../img/banner3.jpg);
+    width: 100%;
+    background-size: cover;
+    color: var(--main-color);
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    padding: 10px;
+    grid-area: banner;
+}
+
+
+#banner p {
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+      padding-top: 120px; 
+    }
+  }
+
+
+/* 
+- variables
+- estilos globales (reset + elementos)
+- layout
+- componentes
+- pages
+*/
