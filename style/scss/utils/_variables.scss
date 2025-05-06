@@ -1,0 +1,11 @@
+:root {
+    --main-color: #dda15e;
+    --main-color-secundary: #9e5b21;
+    --main-tex-color: #606c38;
+    --main-text-light: #fefae0;
+    --border: 2px solid black;
+}
+
+h1 {
+    color: var(--main-color-secundary)
+}

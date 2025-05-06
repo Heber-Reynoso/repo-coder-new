@@ -1,0 +1,22 @@
+// BASE
+@use "./base/reset";
+@use "./base/typography";
+
+// LAYOUT
+@use "./layout/footer";
+@use "./layout/navbar";
+@use "./layout/header";
+@use "./layout/main";
+
+// COMPONENT
+@use "./component/button";
+@use "./component/media-queries";
+@use "./component/video";
+
+// PAGES
+@use "./pages/home";
+
+// UTILS
+@use "./utils/variables"
+
+

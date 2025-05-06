@@ -15,15 +15,20 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 
     <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- Bootstrap JS Bundle -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
-  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
     <!--link css-->
-    <link rel="stylesheet" href="./style/style.css">
-    
+    <link rel="stylesheet" href="style/css/style.css">
+
 
 </head>
 
@@ -31,45 +36,47 @@
 
     <!--Header: (encabezado)-->
 
-    <header >
-
-        <img width="60" src="./img/logo-celular-persona.png" alt="logo celulares">
+    <header>
+        <a href="#">
+            <img width="60" src="./img/logo-celular-persona.png" alt="logo celulares"> </a>
 
         <nav class="navbar navbar-expand-md  bg-success navbar-dark">
             <div class="container-fluid">
-              <!-- Logo o nombre -->
-              <a class="navbar-brand" href="#"></a>
-          
-              <!-- Botón hamburguesa -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav"
-                aria-controls="menuNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-          
-              <!-- Enlaces del menú -->
-              <div class="collapse navbar-collapse" id="menuNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                  <li class="nav-item"><a class="nav-link" href="./paginas/servicios.html">Servicios</a></li>
-                  <li class="nav-item"><a class="nav-link" href="./paginas/mas-información.html">Más información</a></li>
-                  <li class="nav-item"><a class="nav-link" href="./paginas/contacto.html">Contacto</a></li>
-                  <li class="nav-item"><a class="nav-link" href="./paginas/sobre-nosotros.html">Sobre nosotros</a></li>
-                </ul>
-              </div>
+                <!-- Logo o nombre -->
+                <a class="navbar-brand" href="#"></a>
+
+                <!-- Botón hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav"
+                    aria-controls="menuNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Enlaces del menú -->
+                <div class="collapse navbar-collapse " id="menuNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./paginas/servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./paginas/mas-información.html">Más
+                                información</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./paginas/contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./paginas/sobre-nosotros.html">Sobre nosotros</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
 
-        
 
-       
 
-        
-            <a class="boton-registrate" href="./paginas/mas-información.html">regístrate</a>
-        
+
+
+
+        <a class="boton-registrate" href="./paginas/mas-información.html">regístrate</a>
+
 
     </header>
 
-     
+
 
     <!--main: contenido principal -->
     <main>
@@ -88,30 +95,32 @@
             <article class="parrafo1">
                 <h3>Reparación de pantalla</h3>
                 <p>Reparamos pantallas de móviles rápido y con garantía. ¡Tu dispositivo como nuevo en poco tiempo!</p>
-                <img width="250" src="./img/reparacion-pantalla.jpg" alt="logo reparación de pantalla">
+                <img height="250px" data-aos="fade-down" src="./img/reparacion-pantalla.jpg" alt="logo reparación de pantalla">
+                <br> <br>
             </article>
 
-            <article >
+            <article>
                 <h3>Reparación de movil por agua o humedad</h3>
                 <p>Reparamos móviles dañados por agua o humedad. ¡Actúa rápido y salva tu dispositivo!</p>
-                <img width="300" src="./img/reparacion-agua.jpg" alt="logo reparación por humedad">
+                <img height="200px" data-aos="fade-up-right" src="./img/reparacion-agua.jpg" alt="logo reparación por humedad">
+                <br> <br>
             </article>
 
             <article>
                 <h3>Reparación de batería</h3>
                 <p>Cambiamos la batería de tu móvil rápido y con garantía. ¡Recupera la autonomía!</p>
-                <img width="250" src="./img/reparacion-bateria.jpg" alt="logo reparación de batería">
+                <img data-aos="fade-up-left" src="./img/reparacion-bateria.jpg" alt="logo reparación de batería">
             </article>
 
-        
+
 
             <h2>Precios</h2>
 
             <table>
                 <tr>
-                    <th>Celda 1</th>
-                    <th>Celda 2</th>
-                    <th>Celda 3</th>
+                    <td>Celda 1</td>
+                    <td>Celda 2</td>
+                    <td>Celda 3</td>
                 </tr>
 
                 <tr>
@@ -137,7 +146,12 @@
 
     <!--footer: pie de pagina-->
     <footer>
+        <a href="https://wa.me/1234567890" class="boton-wap" target="_blank">
+            <i class="fa-brands fa-whatsapp" style="color: #1d3b0c;"></i>
+        </a>
 
+
+        </a>
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
@@ -149,17 +163,37 @@
         </nav>
         <br>
 
-        
 
-    <p>© 2025 <span>Todos los derechos reservados.</span></p>
 
-    
+        <p>© 2025 <span>Todos los derechos reservados.</span></p>
+
+
 
     </footer>
 
-    
+    <script>
+        document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const menu = document.querySelector('.navbar-collapse');
+                const isExpanded = menu.classList.contains('show');
+                if (isExpanded) {
+                    const toggleButton = document.querySelector('.navbar-toggler');
+                    toggleButton.click();
+                }
+            });
+        });
+    </script>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

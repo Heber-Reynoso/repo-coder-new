@@ -1,0 +1,17 @@
+#banner {
+    background-color: var(--main-text-light);
+    background-image: url(/img/banner3.jpg);
+    width: 100%;
+    background-size: cover;
+    color: var(--main-color);
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    padding: 10px;
+    grid-area: banner;
+
+    p {
+        margin: 20px 0;
+    }
+}
+
