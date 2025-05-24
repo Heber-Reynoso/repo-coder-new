@@ -12,11 +12,19 @@
 @use "./component/button";
 @use "./component/media-queries";
 @use "./component/video";
+@use "./component/map";
+@use "./component/inputs";
 
 // PAGES
 @use "./pages/home";
+@use "./pages/servicios";
+@use "./pages/contacto";
+@use "./pages/mas-información";
+@use "./pages/sobre-nosotros";
 
 // UTILS
-@use "./utils/variables"
+@use "./utils/variables";
+@use "./utils/helpers";
+
 
 

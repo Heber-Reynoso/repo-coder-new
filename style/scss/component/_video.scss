@@ -19,3 +19,32 @@
 
 .videos {width: 60%
 }
+
+.fila-videos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  .servicio {
+    flex: 1 1 30%; /* Que cada bloque ocupe 30% del ancho */
+    text-align: center;
+  }
+  
+  .video-responsive {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+  
+  .video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+
