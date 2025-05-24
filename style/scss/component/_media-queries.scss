@@ -1,5 +1,7 @@
 
-@media (max-width: 771px) {
+
+@media (max-width: 767.98px) {
+
 
 
     .navbar-nav {
@@ -31,3 +33,53 @@
         align-self: center;
     }
 }
+
+
+@media (max-width: 663px) {
+    article {
+      flex-direction: column;
+      text-align: center;
+    }
+     }
+
+     @media (max-width: 750px) {
+        .fila-videos {
+            width: 100%;
+          flex-direction: column;
+          align-items: center;
+          ;
+      
+          .servicio {
+            width: 100%;
+            max-width: 100%;
+
+          }
+
+           }
+
+           img.img-servicios {
+            padding-top: 50px; 
+            width: 90%;
+            height: 250px;
+            }
+
+          
+         }
+      
+         @media screen and (max-width: 700px) {
+          div.mapa-fila {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;   
+            gap: 30px;
+          }
+
+          .datos-contacto {
+            display: flex;
+            justify-content: center;
+          }
+
+          .mapa {padding: 10px;
+          width: 100%;}
+        }
+
