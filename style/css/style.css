@@ -199,7 +199,7 @@ article img {
 
 #banner {
   background-color: var(--main-text-light);
-  background-image: url(../../img/banner3.jpg);
+  background-image: url(/img/banner3.jpg);
   width: 100%;
   background-size: cover;
   color: var(--main-color);
