@@ -1,7 +1,8 @@
 .espaciados {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
+    margin-top: 30px;
     
   }
 
@@ -9,4 +10,22 @@
   padding-top: 50px;
   padding-bottom: 30px;
   width: 100%;
+}
+
+.ancho-boton {
+  width: 300px;
+}
+
+.row {justify-content: center;}
+
+.btn {
+  width: 150px;
+}
+
+main.py-4 {
+  padding-top: 0rem !important;
+}
+
+.margin-info {
+  margin-bottom: 60px !important;
 }
