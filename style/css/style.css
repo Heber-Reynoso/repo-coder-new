@@ -15,12 +15,11 @@ body {
 }
 
 footer {
-  padding: 8px;
+  padding: 0.1px;
   margin-top: 25px;
   background-color: var(--main-tex-color);
   color: var(--main-text-light);
   grid-area: footer;
-  ;
 }
 footer ul {
   list-style: none;
@@ -337,7 +336,7 @@ section article img {
 
 #banner {
   background-color: var(--main-text-light);
-  background-image: url(../../../img/banner3.png);
+  background-image: url(../../img/banner3.png);
   width: 100%;
   background-size: cover;
   color: var(--main-color);
@@ -386,7 +385,6 @@ section article img {
   flex-direction: column;
   gap: 30px;
   margin-top: 30px;
-  margin-bottom: 25px;
 }
 
 .img-información {
@@ -422,7 +420,6 @@ main.py-4 {
 
 .color-text {
   color: rgb(70, 55, 40);
-  padding: 25px 0 37px 0;
 }
 
 .tamaño-video {
