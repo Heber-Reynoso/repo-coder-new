@@ -385,6 +385,7 @@ section article img {
   flex-direction: column;
   gap: 30px;
   margin-top: 30px;
+  margin-bottom: 25px;
 }
 
 .img-información {
